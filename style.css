@@ -1,0 +1,53 @@
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 600px;
+  height: 600px;
+  margin: 120px auto;
+  text-align: center;
+  position: relative;
+}
+
+.red {
+  background-color: #e53935;
+  color: #ffffff;
+}
+
+.blue {
+  background-color: #1e88e5;
+  color: #ffffff;
+}
+
+.green {
+  background-color: #43a047;
+  color: #ffffff;
+}
+
+.yellow {
+  background-color: #fdd835;
+  color: #000000;
+}
+
+.active {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.points {
+  position: absolute;
+  background-color: #eee;
+  font-size: 32px;
+  z-index: 2;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 37px 0px rgba(66, 68, 90, 1);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
